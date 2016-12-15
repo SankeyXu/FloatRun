@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>floatShuff</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="window">
+			<div class="box" onmouseover="stopRun()" onmouseout="startRun()">
+				<!--This is left/right_button-->
+				<button type="button" class="leftBtn" onclick="leftMove()"></button>
+				<button type="button" class="rightBtn" onclick="rightMove()"></button>
+				<div class="title-big">
+					<!--This is nodeArc-->
+					<ul class="btnBottom">
+						<li class="smallArc smallArcActive"  onclick="exchange(this)"></li>
+						<li class="smallArc"  onclick="exchange(this)"></li>
+						<li class="smallArc"  onclick="exchange(this)"></li>
+						<li class="smallArc"  onclick="exchange(this)"></li>
+						<li class="smallArc"  onclick="exchange(this)"></li>
+					</ul>
+					<!--This is picture-->
+					<span class="pic pic01 picActive"></span>
+					<span class="pic pic02"></span>
+					<span class="pic pic03"></span>
+					<span class="pic pic02"></span>
+					<span class="pic pic03"></span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+

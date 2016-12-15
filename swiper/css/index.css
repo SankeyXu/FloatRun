@@ -1,0 +1,8 @@
+.window {
+    width: 80%;
+    height: 600px;
+    overflow: hidden;
+    margin: 50px auto;
+    border: 1px solid #cccccc;
+    box-shadow: #cccccc 30px 30px 10px 10px;
+}
